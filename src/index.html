@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Practice site with HTML, CSS and JavaScript">
+	<meta name="author" content="Nikola">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<title>Home page of site</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.min.css">
+</head>
+<body>
+
+	<!-- main navigation -->
+	<nav class="navbar" id="navbar">
+	<!-- container star -->
+		<div class="container">
+
+			<ul>
+				<li id="home" class="home">
+					<a href="javascript:void(0)"><i class="fas fa-home"></i></a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">Font Awesome</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">Bootstrap</a>
+				</li>
+				<li class="active">
+					<a href="javascript:void(0)">jQuery</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">Angular</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">Vue</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">React</a>
+				</li>
+				<li class="user-area">
+					<!-- log in start -->
+					<div class="log-in" id="log-in" role="button">
+						<i class="fas fa-sign-in-alt"></i>
+						<p class="log-in-text">Log in</p>
+					</div>
+					<!-- log in end -->
+					<!-- sign up start -->
+					<a class="sign-up" id="sign-up-open" role="button" href="javascript:void(0)">
+						<i class="fas fa-user-plus"></i>
+						<p class="sign-up-text">Sign up</p>
+					</a>
+					<!-- sign up end -->
+				</li>
+				<li class="menu-bar">
+					<div class="menu-bar-icon" id="menu-bar-icon" role="button">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</li>
+
+			</ul>
+
+	<!-- login popup start -->
+
+			<div id="log-in-popup" class="log-in-popup">
+				<form id="log-in-form">
+					<div class="form-info-element">
+						<h2>Login</h2>
+						<div class="log-in-popup-close" id="log-in-popup-close" role="button"><i class="fas fa-times"></i></div>
+					</div>
+					<div class="form-data-element">
+						<input id="username" class="log-in-input" type="text" name="username" placeholder="Username" required="">
+						<input id="password" class="log-in-input" type="password" name="password" placeholder="Password" title="Please enter your password." required>
+					</div>
+					<div class="form-send-element">
+						<button id="log-in-button" class="log-in-button" type="submit"><b>Log in</b></button>
+						<a class="log-in-help" href="javascript:void(0)">Forgot your password?</a>
+					</div>
+				</form>
+			</div>
+
+	<!-- login popup end -->
+
+		</div>
+	<!-- container end -->
+	</nav>
+	<!-- end of main navigation -->
+
+	<!-- side navigation start -->
+
+	<nav class="side-nav" id="side-nav">
+		<ul>
+			<li class="side-nav-home">
+				<a href="javascript:void(0)">
+					<i class="fas fa-home"></i><span> Home</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">Font Awesome</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">Bootstrap</a>
+			</li>
+			<li class="active">
+				<a href="javascript:void(0)">jQuery</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">Angular</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">Vue</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">React</a>
+			</li>
+			<li class="side-nav-log-in">
+				<a id="side-nav-log-in-button" href="javascript:void(0)" role="button">
+					<i class="fas fa-sign-in-alt"></i>
+					<span>Log in</span>
+				</a>
+			</li>
+			<li class="side-nav-sign-up">
+				<a id="side-nav-sign-up" href="javascript:void(0)">
+					<i class="fas fa-user-plus"></i>
+					<span> Sing up</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- side navigation end -->
+
+	<!-- main area start -->
+
+	<div class="main-area">
+		<div class="container">
+	<!-- main start -->
+			<div class="main">
+	<!-- main body start -->
+				<main class="main-body">
+	<!-- slideshow start -->
+					<div class="slideshow">
+						<div class="slides">
+
+							<div class="slide fade">
+								<img class="slideshow-image" src="images/font-awesome.png" alt="Font Awesome" title="Click to enter edit mode">
+							</div>
+							<div class="slide fade">
+								<img class="slideshow-image" src="images/bootstrap.png" alt="Bootstrap" title="Click to enter edit mode">
+							</div>
+							<div class="slide fade">
+								<img class="slideshow-image" src="images/jquery.jpg" alt="jQuery" title="Click to enter edit mode">
+							</div>
+							<div class="slide fade">
+								<img class="slideshow-image" src="images/angular.png" alt="Angular" title="Click to enter edit mode">
+							</div>
+							<div class="slide fade">
+								<img class="slideshow-image" src="images/vue.jpg" alt="Vue" title="Click to enter edit mode">
+							</div>
+							<div class="slide fade">
+								<img class="slideshow-image" src="images/react.png" alt="React" title="Click to enter edit mode">
+							</div>
+
+
+							<button class="slideshow-prev"><i class="fas fa-angle-left fa-3x"></i></button>
+							<button class="slideshow-next"><i class="fas fa-angle-right fa-3x"></i></button>
+
+						</div>
+
+						<div class="slides-dots">
+							<span class="slides-dot" data-n="1" role="button"></span>
+							<span class="slides-dot" data-n="2" role="button"></span>
+							<span class="slides-dot" data-n="3" role="button"></span>
+							<span class="slides-dot" data-n="4" role="button"></span>
+							<span class="slides-dot" data-n="5" role="button"></span>
+							<span class="slides-dot" data-n="6" role="button"></span>
+						</div>
+
+					</div>
+	<!-- slideshow end -->
+
+	<!-- article container start -->
+					<div class="article-container">
+
+						<div class="article font-awesome">
+							<div class="article-header">
+								<h2>
+									<a class="article-header-link" href="javascript:void(0)"><i class="fab fa-font-awesome"></i> Font Awesome</a>
+								</h2>
+							</div>
+							<div class="article-body">
+								<div class="content">
+									<p>Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.</p>
+									<ul class="fa-ul">
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Accessibility-Minded</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Desktop-Friendly</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Tried & Tested</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Pixel-Perfect Rendering</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Manage & Use Your Way</li>
+									</ul>
+								</div>
+								<div class="read-more">
+									<a class="read-more-link" href="javascript:void(0)">Read more...</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="article bootstrap">
+							<div class="article-header">
+								<h2>
+									<a class="article-header-link" href="javascript:void(0)"><i class="bootstrap-icon"></i> Bootstrap</a>
+								</h2>
+							</div>
+							<div class="article-body">
+								<div class="content">
+									<p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>
+									<ul class="fa-ul">
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Open source</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Sass variables and mixins</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Responsive grid system</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Extensive prebuilt components</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Powerful plugins</li>
+									</ul>
+								</div>
+								<div class="read-more">
+									<a class="read-more-link" href="javascript:void(0)">Read more...</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="article jquery">
+							<div class="article-header">
+								<h2>
+									<a class="article-header-link" href="javascript:void(0)"><i class="jquery-icon"></i> jQuery</a>
+								</h2>
+							</div>
+							<div class="article-body">
+								<div class="content">
+									<p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML manipulation, event handling, animation, and Ajax simple.</p>
+									<ul class="fa-ul">
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Write less, do more</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Easy to learn</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Open source content</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Powerful plugins</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Run same in all browsers</li>
+									</ul>
+								</div>
+								<div class="read-more">
+									<a class="read-more-link" href="javascript:void(0)">Read more...</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="article angular">
+							<div class="article-header">
+								<h2>
+									<a class="article-header-link" href="javascript:void(0)"><i class="fab fa-angular"></i> Angular</a>
+								</h2>
+							</div>
+							<div class="article-body">
+								<div class="content">
+									<p>AngularJS is a JavaScript framework, its environment is extraordinarily expressive, readable, and quick to develop.</p>
+									<ul class="fa-ul">
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Extend HTML vocabulary</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Fully extensible</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Data binding</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Works with other libraries</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Single Page Applications</li>
+									</ul>
+								</div>
+								<div class="read-more">
+									<a class="read-more-link" href="javascript:void(0)">Read more...</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="article vue">
+							<div class="article-header">
+								<h2>
+									<a class="article-header-link" href="javascript:void(0)"><i class="fab fa-vuejs"></i> Vue</a>
+								</h2>
+							</div>
+							<div class="article-body">
+								<div class="content">
+									<p>Vue is a progressive framework for building user interfaces, designed from the ground up to be incrementally adoptable.</p>
+									<ul class="fa-ul">
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Focused on the view layer</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Extends HTML with directives</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Two way binding</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Easy to intergrate</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Single Page Applications</li>
+									</ul>
+								</div>
+								<div class="read-more">
+									<a class="read-more-link" href="javascript:void(0)">Read more...</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="article react">
+							<div class="article-header">
+								<h2>
+									<a class="article-header-link" href="javascript:void(0)"><i class="fab fa-react"></i> React</a>
+								</h2>
+							</div>
+							<div class="article-body">
+								<div class="content">
+									<p>A JavaScript library for building user interfaces, optimal for fetching rapidly changing data that needs to be recorded. </p>
+									<ul class="fa-ul">
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Declarative views</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Component-Based</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Open source</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Single Page Applications</li>
+										<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Mobile applications</li>
+									</ul>
+								</div>
+								<div class="read-more">
+									<a class="read-more-link" href="javascript:void(0)">Read more...</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+	<!-- article container end -->
+				</main>
+	<!-- main body end -->
+
+	<!-- aside start -->
+				<aside class="main-aside">
+					<div class="aside-container">
+						<div class="aside-heading">
+							<h2>Other useful tools</h2>
+						</div>
+						<div class="aside-body">
+							<ul class="aside-list">
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="http://lesscss.org/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-less fa-3x"></i></span>
+										<span class="aside-text">Less</span>
+									</a>
+								</li>
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="https://sass-lang.com/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-sass fa-3x"></i></span>
+										<span class="aside-text">Sass</span>
+									</a>
+								</li>
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="https://nodejs.org/en/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-node fa-3x"></i></span>
+										<span class="aside-text">Node</span>
+									</a>
+								</li>
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="https://www.npmjs.com/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-npm fa-3x"></i></span>
+										<span class="aside-text">npm</span>
+									</a>
+								</li>
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="https://yarnpkg.com/en/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-yarn fa-3x"></i></span>
+										<span class="aside-text">Yarn</span>
+									</a>
+								</li>
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="https://gulpjs.com/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-gulp fa-3x"></i></span>
+										<span class="aside-text">Gulp</span>
+									</a>
+								</li>
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="https://github.com/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-github fa-3x"></i></span>
+										<span class="aside-text">GitHub</span>
+									</a>
+								</li>
+
+								<li class="aside-list-item">
+									<a class="aside-list-link" href="https://emberjs.com/" target="_blank">
+										<span class="aside-icon"><i class="fab fa-ember fa-3x"></i></span>
+										<span class="aside-text">Ember</span>
+									</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</aside>
+	<!-- aside end -->
+			</div>
+	<!-- main end -->
+
+	<!-- main area footer start -->
+			<div class="main-area-footer">
+				<hr>
+				<h3>Sites for learning</h3>
+				<div class="learning-container">
+					<div class="learning-left">
+						<div>
+							<a class="learning-link" href="https://www.w3schools.com/" target="_blank"><b>W3Schools</b></a>
+						</div>
+						<div>
+							<a class="learning-link" href="https://developer.mozilla.org/en-US/" target="_blank"><b>MDN&nbsp;Web&nbsp;Docs</b></a>
+						</div>
+						<div>
+							<a class="learning-link" href="https://developers.google.com/web/" target="_blank"><b>Google&nbsp;Developers&nbsp;Web</b></a>
+						</div>
+						<div>
+							<a class="learning-link" href="https://css-tricks.com/" target="_blank"><b>CSS-Tricks</b></a>
+						</div>
+					</div>
+					<div class="learning-right">
+						<div>
+							<a class="learning-link" href="https://www.codecademy.com/" target="_blank"><b>Codeacademy</b></a>
+						</div>
+						<div>
+							<a class="learning-link" href="https://www.khanacademy.org/" target="_blank"><b>Khan&nbsp;Academy</b></a>
+						</div>
+						<div>
+							<a class="learning-link" href="https://www.tutorialspoint.com/index.htm" target="_blank"><b>Tutorialspoint</b></a>
+						</div>
+						<div>
+							<a class="learning-link" href="https://www.udacity.com/" target="_blank"><b>Udacity</b></a>
+						</div>
+					</div>
+				</div>
+			</div>
+	<!-- main area footer end -->
+
+		</div>
+	</div>
+
+	<!-- main area end -->
+
+
+	<!-- aside -->
+
+
+	<!-- feedback start -->
+
+	<button id="feedback-open" class="feedback-open feedback-open-animation"><span id="feedback-open-text">Feedback</span></button>
+	<div id="feedback-body" class="feedback-body">
+		<h2 class="feedback-body-header">Your feedback</h2>
+		<div id="feedback-close" class="feedback-body-close"><i class="fas fa-times fa-lg"></i></div>
+		<form id="feedback-form" class="feedback-form">
+			<p>What is your opinion about this page?</p>
+			<div class="choice-row">
+				<div class="rating-row">
+					<label for="rating-1"><i class="far fa-angry fa-2x"></i></label>
+					<input id="rating-1" type="radio" name="rating" value="1" required>
+				</div>
+				<div class="rating-row">
+					<label for="rating-2"><i class="far fa-frown fa-2x"></i></label>
+					<input id="rating-2" type="radio" name="rating" value="2" required>
+				</div>
+				<div class="rating-row">
+					<label for="rating-3"><i class="far fa-meh fa-2x"></i></label>
+					<input id="rating-3" type="radio" name="rating" value="3" required>
+				</div>
+				<div class="rating-row">
+					<label for="rating-4"><i class="far fa-smile fa-2x"></i></label>
+					<input id="rating-4" type="radio" name="rating" value="4" required>
+				</div>
+				<div class="rating-row">
+					<label for="rating-5"><i class="far fa-laugh fa-2x"></i></label>
+					<input id="rating-5" type="radio" name="rating" value="5" required>
+				</div>
+
+				<div id="error-row" class="error-row">
+					<span class="error-row-text">Opinion is required!</span>
+				</div>
+
+			</div>
+
+			<div class="textarea-row">
+				<label for="feedback-textarea">Would you like to add comment?</label>
+				<textarea id="feedback-textarea" placeholder="Please add your feedback here..." rows="5" cols="29"></textarea>
+			</div>
+			<button id="feedback-submit" class="feedback-submit" type="submit"><b>Submit</b></button>
+		</form>
+	</div>
+
+	<!-- feedback end -->
+
+	<!-- footer start-->
+
+	<div id="footer-wrapper" class="footer-wrapper">
+		<footer class="footer">
+	<!-- footer top start -->
+			<div class="footer-top">
+	<!-- footer logo start -->
+				<div class="footer-logo">
+					<a class="footer-logo-link" href="#"><i class="fas fa-home"></i></a>
+				</div>
+	<!-- footer logo end -->
+	<!-- footer rest start -->
+				<div class="footer-top-rest">
+					<div class="footer-social">
+						<div class="social-follow-us">
+							<p class="social-follow-us-text"><b>Follow us on:</b></p>
+						</div>
+						<div class="social-container">
+							<a class="social-container-link" href="javascript:void(0)">
+								<img class="social-container-logo" src="icons/facebook-icon.svg" alt="Facebook logo">
+								<span class="social-text">Facebook</span>
+							</a>
+						</div>
+						<div class="social-container">
+							<a class="social-container-link" href="javascript:void(0)">
+								<img class="social-container-logo" src="icons/instagram-icon.svg" alt="Instagram logo">
+								<span class="social-text">Instagram</span>
+							</a>
+						</div>
+						<div class="social-container">
+							<a class="social-container-link" href="javascript:void(0)">
+								<img class="social-container-logo" src="icons/twitter-icon.svg" alt="Twitter logo">
+								<span class="social-text">Twitter</span>
+							</a>
+						</div>
+						<div class="social-container">
+							<a class="social-container-link" href="javascript:void(0)">
+								<img class="social-container-logo" src="icons/youtube-icon.svg" alt="Youtube logo">
+								<span class="social-text">Youtube</span>
+							</a>
+						</div>
+					</div>
+					<div class="footer-to-top">
+						<a class="footer-to-top-link" href="#home">
+							<i class="fas fa-angle-up fa-2x top-link-icon"></i>
+							<i class="fas fa-angle-up fa-2x top-link-icon"></i>
+							<b class="top-link-text">Top</b>
+						</a>
+					</div>
+				</div>
+	<!-- footer rest end -->
+			</div>
+	<!-- footer top end -->
+	<!-- footer bottom start -->
+			<div class="footer-bottom">
+				<div class="footer-info">
+					<a class="footer-info-link" href="javascript:void(0)">Contact</a>
+					<a class="footer-info-link" href="javascript:void(0)">Terms of use</a>
+					<a class="footer-info-link" href="javascript:void(0)">Cookie and privacy policy</a>
+				</div>
+				<div class="footer-copyright">
+					<span>Copyright © 2019 Nikola</span>
+				</div>
+			</div>
+	<!-- footer bottom end -->
+		</footer>
+	</div>
+
+	<!-- footer end -->
+
+	<!-- sign up start -->
+
+	<div id="sign-up-container" class="sign-up-container">
+
+		<div class="sign-up-wrapper">
+
+			<div id="sign-up-close" class="sign-up-close" role="button"><i class="fas fa-times fa-2x"></i></div>
+
+			<div class="heading-container">
+				<h2 class="heading"><b>Sign Up</b></h2>
+				<ul class="heading-list">
+					<li>
+						<p class="heading-p">Please fill in this form to create an account.</p>
+					</li>
+					<li>
+						<p id="required-text" class="heading-p">All fields are required.</p>
+					</li>
+					<li>
+						<p class="heading-p">Your username will be reserved for you only <span class="heading-hidden">and you will be able to use an avatar</span>.</p>
+					</li>
+					<li>
+						<p class="heading-p">We care about protecting your privacy.<span class="heading-hidden"> We won't share your data.</span></p>
+					</li>
+					<li>
+						<p class="heading-p">We have to verify your email address.<span class="heading-hidden"> Once you complete this form you will receive an email with a confirmation link.</span></p>
+					</li>
+					<li>
+						<p class="heading-p">
+							Before creating an account read our <a class="terms-link" href="javascript:void(0)">Terms & Privacy.</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+
+			<hr>
+
+			<div class="sign-up-form-container">
+				<form id="sign-up-form">
+					<div class="sign-up-row">
+						<label for="sign-up-username">Username</label>
+						<input class="" type="text" name="username" id="sign-up-username" placeholder="Enter Username">
+					</div>
+					<div class="sign-up-row">
+						<label for="sign-up-email">Email</label>
+						<input class="" type="email" name="email" id="sign-up-email" placeholder="Enter Email">
+					</div>
+					<div class="sign-up-row">
+						<label for="sign-up-password">Password (8 to 20 characters)</label>
+						<input class="" type="password" name="password" id="sign-up-password" placeholder="Enter Password">
+					</div>
+					<div class="sign-up-row">
+						<label for="sign-up-repeatpassword">Repeat Password</label>
+						<input class="" type="password" name="repeatpassword" id="sign-up-repeatpassword" placeholder="Repeat Password">
+					</div>
+					<div class="sign-up-row-check">
+						<label for="sign-up-agree">
+							<div id="switch" class="switch" tabindex="0">
+								<div id="switch-square" class="switch-square"></div>
+							</div>
+							<input id="sign-up-agree" type="checkbox" name="agree">
+						</label>
+						<span class="agree-text">I agree with terms and privacy conditions.</span>
+					</div>
+
+					<div class="button-container">
+						<button id="submit-button" class="sign-up-ok" type="submit">Sign up</button>
+						<span class="button-divider">or</span>
+						<button type="reset" id="cancel-button" class="sign-up-cancel">Cancel</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- sign up end -->
+
+	<!-- image filter start -->
+
+	<div id="filter-container" class="filter-container">
+		<div class="filter-heading">
+			<h2><span class="heading-text-large">Use filters to e</span><span class="heading-text-small">E</span>dit image</h2>
+		</div>
+		<div id="filter-close" class="filter-close">
+			<div>&times;</div>
+		</div>
+		<div class="image-container">
+			<img id="image-holder" class="image-holder">
+		</div>
+		<div class="edit-container">
+			<div class="edit-left">
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Blur</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="blur-container" class="input-container" data-type="blur">
+						<span class="input-value">0</span>
+						<input id="blur" class="input-range" type="range" value="0" min="0" max="10" data-unit="px" data-value="0">
+						<span class="input-value">10</span>
+					</div>
+				</div>
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Brightness</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="brightness-container" class="input-container" data-type="brightness">
+						<span class="input-value">0</span>
+						<input id="brightness" class="input-range" type="range" value="100" min="0" max="100" data-unit="%" data-value="100">
+						<span class="input-value">100</span>
+					</div>
+				</div>
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Contrast</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="contrast-container" class="input-container" data-type="contrast">
+						<span class="input-value">0</span>
+						<input id="contrast" class="input-range" type="range" value="100" min="0" max="1000" data-unit="%" data-value="100">
+						<span class="input-value">1000</span>
+					</div>
+				</div>
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Greyscale</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="grayscale-container" class="input-container" data-type="grayscale">
+						<span class="input-value">0</span>
+						<input id="grayscale" class="input-range" type="range" value="0" min="0" max="100" data-unit="%" data-value="0">
+						<span class="input-value">100</span>
+					</div>
+				</div>
+			</div>
+			<div class="edit-right">
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Invert</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="invert-container" class="input-container" data-type="invert">
+						<span class="input-value">0</span>
+						<input id="invert" class="input-range" type="range" value="0" min="0" max="100" data-unit="%" data-value="0">
+						<span class="input-value">100</span>
+					</div>
+				</div>
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Opacity</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="opacity-container" class="input-container" data-type="opacity">
+						<span class="input-value">0</span>
+						<input id="opacity" class="input-range" type="range" value="100" min="0" max="100" data-unit="%" data-value="100">
+						<span class="input-value">100</span>
+					</div>
+				</div>
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Saturate</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="saturate-container" class="input-container" data-type="saturate">
+						<span class="input-value">0</span>
+						<input id="saturate" class="input-range" type="range" value="100" min="0" max="100" data-unit="%" data-value="100">
+						<span class="input-value">100</span>
+					</div>
+				</div>
+				<div class="edit-section">
+					<h3 class="edit-section-heading">Sepia</h3>
+					<div class="edit-switch">
+						<div class="edit-switch-btn">
+							<div class="edit-switch-click"></div>
+						</div>
+					</div>
+					<div id="sepia-container" class="input-container" data-type="sepia">
+						<span class="input-value">0</span>
+						<input id="sepia" class="input-range" type="range" value="0" min="0" max="100" data-unit="%" data-value="0">
+						<span class="input-value">100</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- image filter end -->
+
+
+	<script src="script.min.js"></script>
+</body>
+</html>

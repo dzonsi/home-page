@@ -1,0 +1,1 @@
+Home page of site with pure CSS and JavaScript.

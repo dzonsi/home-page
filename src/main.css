@@ -328,6 +328,7 @@ a.sign-up:hover .sign-up-text {
 }
 .log-in-popup-close:hover {
 	color: var(--main-close);
+	cursor: pointer;
 }
 .form-data-element {
 	margin: 5px;
@@ -1199,6 +1200,7 @@ a.log-in-help:hover {
 	right: 10px;
 	z-index: 299;
 	transition: bottom .3s linear;
+	border-radius: 4px;
 }
 .feedback-open:hover {
 	text-decoration: underline;

@@ -49,6 +49,19 @@ sideNavLogInButton.addEventListener('click', () => {
 	}
 });
 
+// footer scroll to top
+var footerLinkToTop = document.getElementById('footer-link-to-top');
+
+function scrollToTop(e) {
+	e.preventDefault();
+	window.scrollTo({
+  top: 0,
+  left: 0,
+  behavior: 'smooth'
+});
+}
+footerLinkToTop.addEventListener('click', scrollToTop);
+
 
 // feedback
 

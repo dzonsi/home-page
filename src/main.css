@@ -466,6 +466,7 @@ a.log-in-help:hover {
 .main {
 	display: flex;
 	font-family: "Comic Sans MS";
+	/*font-family: Arial, Helvetica, sans-serif;*/
 }
 .main-body {
 	flex: 1 1 70%;
@@ -594,6 +595,11 @@ a.log-in-help:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+}
+@media screen and (max-width: 800px) {
+	.article-container {
+		margin-bottom: 40px;
+	}
 }
 .article {
 	width: 300px;
@@ -822,6 +828,7 @@ a.log-in-help:hover {
 .aside-heading {
 	text-align: center;
 	color: var(--main-dark-grey);
+	margin: 40px 0;
 }
 .aside-list {
 	list-style-type: none;

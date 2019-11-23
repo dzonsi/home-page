@@ -606,7 +606,7 @@ a.log-in-help:hover {
 }
 .article:hover {
 	box-shadow: 2px 2px 4px var(--main-grey);
-	transform: scale(1.05);
+	/* transform scale */
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
 	.article {
@@ -645,7 +645,7 @@ a.log-in-help:hover {
 .article-header {
 	color: var(--main-orange);
 	text-align: center;
-	box-shadow: 0 2px 3px var(--main-bg-color);
+	margin-top: 20px;
 }
 .article-header h2 {
 	padding: 10px 14px;
@@ -659,24 +659,38 @@ a.log-in-help:hover {
 }
 .content {
 	color: var(--main-dark-grey);
+	margin-bottom: 20px;
+}
+.content .fa-ul {
+	margin-left: 50px;
 }
 .content p {
 	margin: 0;
+	padding: 0 20px;
 }
 .content span {
 	color: var(--main-orange);
 }
 .read-more {
 	text-align: center;
+	margin-bottom: 20px;
 }
 .read-more-link {
-	color: var(--main-dark-grey);
+	display: inline-block;
+	color: var(--main-color);
 	text-decoration: none;
 	font-size: 20px;
-	transition: color 0.2s;
+	padding: 8px 20px;
+	border-radius: 4px;
+	transition: background-color 0.3s;
 }
-.read-more-link:hover {
-	color: var(--main-orange);
+@media screen and (max-width: 650px) {
+	.read-more {
+		padding: 0 20px;
+	}
+	.read-more-link {
+		display: block;
+	}
 }
 /* font-awesome */
 .font-awesome .article-header-link {
@@ -686,10 +700,10 @@ a.log-in-help:hover {
 	color: var(--font-awesome-blue);
 }
 .font-awesome .read-more-link {
-	color: var(--font-awesome-blue);
+	background-color: var(--font-awesome-blue);
 }
 .font-awesome .read-more-link:hover {
-	color: var(--font-awesome-green);
+	background-color: var(--font-awesome-green);
 }
 /* bootstrap */
 .bootstrap .article-header-link {
@@ -716,10 +730,10 @@ a.log-in-help:hover {
 	color: var(--bootstrap-purple-light);
 }
 .bootstrap .read-more-link {
-	color: var(--bootstrap-purple-light);
+	background-color: var(--bootstrap-purple-light);
 }
 .bootstrap .read-more-link:hover {
-	color: var(--bootstrap-purple);
+	background-color: var(--bootstrap-purple);
 }
 /* jquery */
 .jquery .article-header-link {
@@ -746,10 +760,10 @@ a.log-in-help:hover {
 	color: var(--jquery-light-blue);
 }
 .jquery .read-more-link {
-	color: var(--jquery-light-blue);
+	background-color: var(--jquery-light-blue);
 }
 .jquery .read-more-link:hover {
-	color: var(--jquery-blue);
+	background-color: var(--jquery-blue);
 }
 /* angular */
 .angular .article-header-link {
@@ -762,10 +776,10 @@ a.log-in-help:hover {
 	color: var(--angular-red);
 }
 .angular .read-more-link {
-	color: var(--angular-red);
+	background-color: var(--angular-red);
 }
 .angular .read-more-link:hover {
-	color: var(--angular-blue);
+	background-color: var(--angular-blue);
 }
 /* vue */
 .vue .article-header-link {
@@ -778,10 +792,10 @@ a.log-in-help:hover {
 	color: var(--vue-green);
 }
 .vue .read-more-link {
-	color: var(--vue-green);
+	background-color: var(--vue-green);
 }
 .vue .read-more-link:hover {
-	color: var(--vue-grey);
+	background-color: var(--vue-grey);
 }
 /* react */
 .react .article-header-link {
@@ -794,10 +808,10 @@ a.log-in-help:hover {
 	color: var(--react-blue);
 }
 .react .read-more-link {
-	color: var(--react-blue);
+	background-color: var(--react-blue);
 }
 .react .read-more-link:hover {
-	color: var(--react-black);
+	background-color: var(--react-black);
 }
 
 

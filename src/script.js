@@ -218,7 +218,7 @@ function showSlidesAuto() {
 	autoShow = setTimeout( () => {
 		showSlides(slideIndex += 1);
 		showSlidesAuto();
-	}, 3000);
+	}, 4000);
 }
 
 showSlidesAuto();

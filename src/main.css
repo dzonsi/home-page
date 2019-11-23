@@ -911,17 +911,21 @@ a.log-in-help:hover {
 /* main area footer start */
 .main-area-footer {
 	font-family: Arial, Helvetica, sans-serif;
-	padding: 30px;
 	color: var(--main-dark-grey);
+	padding: 30px;
+}
+.main-area-footer hr {
+	width: 90%;
+	border: 1px solid var(--main-grey);
+}
+.main-area-footer-header {
+	text-align: center;
+	font-size: 25px;
+	margin: 30px 0;
 }
 .learning-container {
 	overflow: auto;
-}
-.main-area-footer hr {
-	border: 1px solid var(--main-grey);
-}
-.main-area-footer h3 {
-	margin: 20px 0;
+	text-align: center;
 }
 .learning-left, .learning-right {
 	width: 50%;
@@ -939,10 +943,10 @@ a.log-in-help:hover {
 @media screen and (max-width: 800px) {
 	.main-area-footer {
 		background-color: var(--main-grey);
-		padding: 20px;
+		padding: 20px 0 50px 0;
 	}
 	.main-area-footer hr {
-	border: 1px solid var(--main-bg-color);
+		border: 1px solid var(--main-bg-color);
 	}
 	.learning-link:hover {
 		color: var(--main-orange-darken);
